@@ -4,3 +4,6 @@
 ## 2. init go mod
 `go mod init github.com/eduardkh/go_web_examples`
 ## 3. write the App
+* install gorilla/mux for routing
+
+    `go get -u github.com/gorilla/mux`
