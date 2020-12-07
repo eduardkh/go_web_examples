@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/eduardkh/go_web_examples/tree/main/TutorialEdge/Building%20a%20Go%20REST%20API%20using%20Gorm%20and%20Fiber!/book"
+	"github.com/eduardkh/go_web_examples/tree/main/TutorialEdge/Building a Go REST API using Gorm and Fiber!/book"
+	// "book"
+
 	"github.com/gofiber/fiber"
 )
 
