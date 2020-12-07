@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"net/http"
 )
@@ -27,7 +28,10 @@ func main() {
 		}
 
 		// do something with details
-		_ = details
+		fmt.Println(details.Email)
+		fmt.Println(details.Subject)
+		fmt.Println(details.Message)
+		// _ = details
 
 		tmpl.Execute(w, struct{ Success bool }{true})
 	})
