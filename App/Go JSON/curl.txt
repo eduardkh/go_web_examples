@@ -1,0 +1,1 @@
+curl http://localhost:8080/decode -X POST -H "Content-Type:  application/json" --data "{\"firstname\": \"Elon\",\"lastname\": \"Musk\",\"age\": 4}"
