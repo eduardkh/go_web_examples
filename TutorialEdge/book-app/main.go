@@ -36,6 +36,7 @@ func initDatabase() {
 
 func main() {
 	app := fiber.New()
+	initDatabase()
 
 	setupRoutes(app)
 	app.Listen(3000)
